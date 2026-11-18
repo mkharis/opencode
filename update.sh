@@ -2,7 +2,7 @@
 set -euo pipefail
 
 echo "==> opencode"
-npm i -g opencode-ai
+brew upgrade opencode
 
 echo "==> skills"
 npx --yes skills update -g -y

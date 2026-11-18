@@ -2,7 +2,7 @@
 set -euo pipefail
 
 echo "==> opencode"
-npm i -g opencode-ai
+brew install opencode
 
 echo "==> config"
 mkdir -p ~/.config/opencode
